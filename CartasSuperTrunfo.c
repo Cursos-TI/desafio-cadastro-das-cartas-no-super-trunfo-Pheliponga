@@ -1,6 +1,3 @@
-#include <stdio.h>
+#inclue <stdio.h>
 
-int main() {
-   
-    return 0;
-}
+int main
