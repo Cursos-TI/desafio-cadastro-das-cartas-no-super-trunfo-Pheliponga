@@ -82,7 +82,9 @@ int main(){
   printf("\n- PIB ($):");
   scanf("%f", &pib2_1_1);
 
-  printf("\nDIGITE O NOME DA SUA CIDADE (A02:)");
+  //intervalo da cidade A01 para A02.
+
+  printf("\nDIGITE O NOME DA SUA CIDADE (A02):");
   scanf(" %s", &nome2_1_2);
   printf("\nSUA CIDADE (A02): %s\n", &nome2_1_2);
 
@@ -100,7 +102,70 @@ int main(){
   printf("\n- PIB ($):");
   scanf("%f", &pib2_1_2);
 
+  //intervalo da cidade A02 para A03
+
+  printf("\nDIGITE O NOME DA SUA CIDADE (A03):");
+  scanf(" %s", &nome2_1_3);
+  printf("\nSUA CIDADE (A02): %s\n", &nome2_1_3);
+
+  printf("\nINFORME OS DADOS DA CIDADE (A03):\n");
   
+  printf("\n- POPULAÇÃO:");
+  scanf("%f", &populacao2_1_3);
+  
+  printf("\n- ÁREA (M²):");
+  scanf("%f", &area2_1_3);
+
+  printf("\n- PONTOS TURÍSTICOS:");
+  scanf("%d", &turistico2_1_3);
+
+  printf("\n- PIB ($):");
+  scanf("%f", &pib2_1_3);
+
+//intervalo da cidade A03 para A04
+  
+  printf("\nDIGITE O NOME DA SUA CIDADE (A04):");
+  scanf(" %s", &nome2_1_4);
+  printf("\nSUA CIDADE (A02): %s\n", &nome2_1_4);
+
+  printf("\nINFORME OS DADOS DA CIDADE (A04):\n");
+  
+  printf("\n- POPULAÇÃO:");
+  scanf("%f", &populacao2_1_4);
+  
+  printf("\n- ÁREA (M²):");
+  scanf("%f", &area2_1_4);
+
+  printf("\n- PONTOS TURÍSTICOS:");
+  scanf("%d", &turistico2_1_4);
+
+  printf("\n- PIB ($):");
+  scanf("%f", &pib2_1_4);
+
+//intervalo da cidade A04 para o Estado B
+
+printf("\nESCOLHA O SEU ESTADO (B):");
+  scanf(" %s", &nome1_2);
+  printf("\nSEU ESTADO (B): %s\n", &nome1_2);
+
+  printf("\nAGORA, PRECISAMOS SABER QUAIS SUAS CIDADES PREFERIDAS DO ESTADO (B)\n");
+  printf("ESCOLHA SUA CIDADE E INFORME OS SEGUINTES DADOS: POPULAÇÃO, ÁREA, NÚMEROS DE PONTOS TURÍSTICOS E PIB!\n");
+
+  printf("\nINFORME OS DADOS DA CIDADE (B01):\n");
+  
+  printf("\n- POPULAÇÃO:");
+  scanf("%f", &populacao2_2_1);
+  
+  printf("\n- ÁREA (M²):");
+  scanf("%f", &area2_2_1);
+
+  printf("\n- PONTOS TURÍSTICOS:");
+  scanf("%d", &turistico2_2_1);
+
+  printf("\n- PIB ($):");
+  scanf("%f", &pib2_2_1);
+
+
 
 
 
