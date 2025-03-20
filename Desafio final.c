@@ -14,7 +14,7 @@ int main(){
     float superpoder1_1, superpoder2_1;
    
 
-    printf("\nBem-vindo ao Super Trunfo!\n");
+    printf("\n### Bem-vindo ao Super Trunfo! ###\n");
     printf("\nHora de começar a jogar!\n");
 
     printf("\nEscolha o seu País para começar: ");
@@ -111,21 +111,61 @@ int comparacaoarea = area1_1 > area2_1;
 int comparacaopopulacao = populacao1_1 > populacao2_1;
 int comparacaopib = pib1_1 > pib2_1;
 int comparacaoturisticos = turistico1_1 > turistico2_1;
-int comparacaodp = dp1_1 > dp2_1;
+int comparacaodp = dp1_1 < dp2_1;
 int comparacaocapita = capita1_1 > capita2_1;
 int comparacaopoder = superpoder1_1 > superpoder2_1;
 
-printf("\nComparação das Cartas:\n");
+// utilização dos comando "if e else para fins de comparação."
 
-printf("Area: %d\n", comparacaoarea);
-printf("População: %d\n", comparacaopopulacao);
-printf("PIB: %d\n", comparacaopib);
-printf("Pontos Turisticos: %d\n", comparacaoturisticos);
-printf("Desnsidade populacional: %d\n", comparacaodp);
-printf("PIB Per Capita: %d\n", comparacaocapita);
-printf("Super Poder: %d\n", comparacaopoder);
+printf("\n***Comparação das Cartas:***\n");
 
+if (populacao1_1 > populacao2_1){
+    printf("População: Carta 1 venceu (%d)\n", comparacaopopulacao);
+} else {
+    printf("População: Carta 2 venceu (%d)\n", comparacaopopulacao);
+}
+if (area1_1 > area2_1){
+    printf("Área: Carta 1 venceu (%d)\n", comparacaoarea);
+} else {
+    printf("Área: Carta 2 venceu (%d)\n", comparacaoarea);
+} 
+if (pib1_1 > pib2_1){
+    printf("PIB: Carta 1 venceu (%d)\n", comparacaopib);
+} else {
+    printf("PIB: Carta 2 venceu (%d)\n", comparacaopib);
+}
+if (turistico1_1 > turistico2_1){
+    printf("Pontos Turísticos: Carta 1 venceu (%d)\n", comparacaoturisticos);
+} else {
+    printf("Pontos Turísticos: Carta 2 venceu (%d)\n", comparacaoturisticos);
+}
+if (dp1_1 < dp2_1){
+    printf("Densidade Populacional: Carta 1 venceu (%d)\n", comparacaodp);
+} else {
+    printf("Densidade Populacional: Carta 2 venceu (%d)\n", comparacaodp);
+}
+if (capita1_1 > capita2_1){
+    printf("PIB Per Capita: Carta 1 venceu (%d)\n", comparacaocapita);
+} else {
+    printf("PIB Per Capita: Carta 2 venceu (%d)\n", comparacaocapita);
+}
+if (superpoder1_1 > superpoder2_1){
+    printf("Super Poder: Carta 1 venceu (%d)\n", comparacaopoder);
+} else {
+    printf("Super Poder: Carta 2 venceu (%d)\n", comparacaopoder);
+} 
 
+/*Considerações finais: 
+---> Não encontrei outra alternativa para realizar a comparação e exibi-la
+como solicitado no trabalho, sem ter que utilizar o comando "If e Else".
+
+---> Acrescentei a escolha de países, não limitando o jogo a somente o território
+brasileiro.
+
+---> Eu optei por colocar o "Código" e "Carta" como um valores atribuídos automaticamente,
+independente da escolha do jogador. Por exemplo: A primeira carta sempre será a "Carta 1 - A01",
+a segunda "Carta 2 - B01", a terceira "Carta 3 - C01" e assim por diante. Portanto, no meu entendimento, não
+haveria necessidade do jogador atribuir uma resposta.*/
 
     return 0; 
 
